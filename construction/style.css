@@ -1,0 +1,327 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{/* 
+    background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%); */
+    background-color: #ffff;
+    color: #333;
+    text-align: center;
+/*  background-image: radial-gradient(at top center, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0.03) 100%), linear-gradient(to top, rgba(255,255,255,0.1) 0%, rgba(143,152,157,0.60) 100%);
+       background-blend-mode: normal, multiply; */
+}
+/* .nav a{
+    text-decoration: none;
+    color: azure;
+}
+.nav .active{
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+.nav .btn{
+    margin-left: 8em;
+    border-radius: 10px;
+}
+.nav img{
+    position: absolute;
+    width: 2.5rem;
+    left: 4%;
+    top: -12%;
+} */
+/* 
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%); */
+/*     display: flex;
+    position: sticky; */
+/*     max-height: 3em;
+    min-height: 5em; */
+ /*    .navbar-brand img {
+        width: 20px;
+        height: 30px; /* Adjust size as needed */
+     
+    .navbar-brand img{
+        width: 2.5rem;
+    }
+    .navbar-nav .nav-link {
+        color: azure;
+
+    }
+    .navbar-nav .active{
+        background-color: #80d0c7;
+        border-radius: 20px;
+    }
+    .navbar-nav .nav-link:hover {
+        color: #14cffa;
+        transform: scale(1.04);
+        transition: 1s;
+    }
+    
+    .navbar-dark .navbar-toggler-icon {
+        background-color: none;
+    }
+    
+    .navbar-toggler {
+        border: none;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .navbar-expand-lg .navbar-nav {
+            flex-direction: column;
+        }
+    
+        .navbar-collapse {
+            background-color: #333;
+            padding: 20px;
+        }
+    
+        .navbar-collapse .navbar-nav .nav-link {
+            color: azure;
+        }
+    }
+    @media (max-width: 992px) {
+          
+          .navbar-toggler {
+            
+              font-size: 18px;  
+          }
+          
+          .navbar-collapse {
+              
+              display: block;  
+          }
+          
+          .navbar-brand {
+          
+              margin-left: 10px;  
+          }
+      }
+      
+    
+.top{
+    position: relative;
+    text-align: end;
+}
+.container{
+    text-align: center;
+}
+
+.footer{
+/*     background-image: linear-gradient(to top, #09203f 0%, #537895 100%); */
+    color: #CCCCCC;
+}
+.bag {
+    position: relative;
+    overflow: hidden;
+    min-height: 90vh;
+}
+
+.bag video {
+    min-width: 100%;
+    max-height: 100vh;
+    /* 
+    align-items: center;
+    justify-content: center; */    
+   /*  width: 100%;
+    height: auto; */
+    margin-top: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: opacity 0.5s ease; /* Add transition effect */
+}
+
+.bag .content {
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* .bag p {
+    min-width: 100%;
+} */
+
+/* .scrolled .bag video {
+    opacity: 0; /* Fade out the video 
+} */
+
+@media screen and (max-width: 768px) {
+    .bag .content {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .bag .content {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .bag video {
+        width: 100%; /* Adjust zoom level as needed */
+        height: 50vh;
+    }
+}
+
+.form-box{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    display: block;
+    margin-top: 2em;
+}
+.form-box input{
+    border-radius: 25px;
+    border-color: #ffffff;
+    width: 20em;
+    margin-top: 2em;
+    padding: 1em 2em;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.form-box .btn{
+    border-radius: 15px;
+    border-color: #80d0c7;
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    color: #ffffff;
+    width: 15em;
+    margin-bottom: 1.5em;
+    transition: 0.3s;
+    font-family: "Dancing Script";
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+.form-box .btn:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.txt{
+    width: 100%;
+    height: 10em;
+}
+.d-flex{
+    flex-direction: column;
+}
+.form-box a{
+    text-decoration: none;
+}
+.subcontent{
+    background-color: #80d0c7;
+    border-radius: 15px;
+    padding-top: 2em;
+    padding-bottom: 5em;
+}
+/* .text{
+    border-radius: 15px;
+    box-shadow: #333; */
+    /* /* 
+background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}  */
+.offpiece{
+width: 100%;
+height: 100%;
+/* 
+background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%); */
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly ;
+
+}
+.first{
+    width: 15rem;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.first img{
+ width: 10rem;
+ height: 10rem;
+}
+.second{
+    width: 15rem;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.second img{
+    width: 10rem;
+    height: 10rem;
+   }
+   .third{
+    width: 15rem;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.third img{
+    width: 10rem;
+    height: 10rem;
+   }
+   .fourth{
+    width: 15rem;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.fourth img{
+    width: 10rem;
+    height: 10rem;
+    }
+/* 
+.dancing-script-container */
+.dance{
+  font-family: "Dancing Script";
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+.container h4{
+    font-family: "Dancing Script";
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+.container p{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .container h3{
+    font-family: "Dancing Script";
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+  }
+  .p{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+.view{
+    min-width: 100%;
+    min-height: 100vh;
+    max-height: 200vh;
+    position: fixed;
+    left: 0px;
+}
+.drop img{
+width: 100%;
+height: 100vh;
+position: fixed;
+left: 0px;
+top: 0px;
+z-index: -1;
+}
+.drop{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
